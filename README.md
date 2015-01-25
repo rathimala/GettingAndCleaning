@@ -17,6 +17,7 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The project has been done using the following steps
+
 Merge the training and the test sets to create one data set.
 
   1. Read X_train data and x_test data
