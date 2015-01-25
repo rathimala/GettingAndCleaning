@@ -17,19 +17,24 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The project has been done using the following steps
-# 1. Merges the training and the test sets to create one data set.
+Merge the training and the test sets to create one data set.
+
   1. Read X_train data and x_test data
   2. Read features.txt which contains names of 561 variables
   3. Name the columns of x_train and x_test data from features.txt file
   4. Merge by rows x_train and x_test data as Dataset
-# 2. Extract only the measurements on the mean and standard deviation for each measurement
+  
+Extract only the measurements on the mean and standard deviation for each measurement
   5. select columns that contains "mean" or "std" and save the result as stat_Dataset
-# 3. Uses descriptive activity names to name the activities in the data set
+
+Uses descriptive activity names to name the activities in the data set
   6. read y_train data and y_test data, merge them by rows as y_Data and 
   7. replace activity id into names and combine y-Data into the stat_Dataset 
-# 4. Appropriately labels the data set with descriptive variable names.
+
+Appropriately labels the data set with descriptive variable names.
   8. using the sub function remove "()" and "" from the column names
-# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   9. read subject_train data and subject_test data and merge it as single subject
   10. merge subject data into stat_Dataset and store is newData
   11. group newData by activity and subject  and store the result as tidyData
